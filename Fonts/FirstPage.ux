@@ -1,0 +1,26 @@
+<DockPanel ux:Class="FirstPage">
+	<ScrollView AllowedScrollDirections="Horizontal" Height="50">
+		<StackPanel Orientation="Horizontal">
+			<Panel HitTestMode="LocalBoundsAndChildren">
+			   	<Rectangle  Layer="Background" CornerRadius="8" Color="#329af0">
+					<Stroke Width="1" Color="#EDEDED" />
+				</Rectangle>
+				<Text Value="Cafee" Font="SFProTextRegular" FontSize="14" Alignment="Center" Color="#fff" Margin="12,8" />
+			</Panel>
+
+			<Panel HitTestMode="LocalBoundsAndChildren">
+			   	<Rectangle Layer="Background" CornerRadius="8" Color="#329af0">
+					<Stroke Width="1" Color="#EDEDED" />
+				</Rectangle>
+				<Text Value="Cafe" FontSize="14" Alignment="Center" Color="#fff" Margin="12,8" />
+			</Panel>
+
+			<Panel HitTestMode="LocalBoundsAndChildren">
+			   	<Rectangle Layer="Background" CornerRadius="8" Color="#329af0">
+					<Stroke Width="1" Color="#EDEDED" />
+				</Rectangle>
+				<Text Value="Cafe" Font="SFProTextRegular" FontSize="14" Alignment="Center" Color="#fff" Margin="12,8" />
+			</Panel>
+		</StackPanel>
+	</ScrollView>
+</DockPanel>
